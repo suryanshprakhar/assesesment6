@@ -1,0 +1,117 @@
+body{
+    background-color: grey;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first-box{
+    border: 5px solid red;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    color: red;
+    font-size: large;
+    background-color: white;
+}
+.hr{
+    border-bottom: 1px solid white;
+}
+.flex-contanier{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid green;
+    height: 538px;
+}
+.flex-item{
+    border: 5px solid red;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    color: rgb(39, 39, 165);
+    line-height: 30px;
+    padding: 0px 10px 10px 10px;
+    position: absolute;
+}
+img{
+    border: 5px solid red;
+    background-color: white;
+    height: 172px;
+    padding: 20px;
+    position: absolute;
+    top: 160px;
+    right: 43px;
+}
+.slogan{
+    bottom: 40px;
+    text-align: start;
+    padding: 0;
+
+}
+.form{
+    bottom: 40px;
+    right: 43px;
+}
+.btn{
+    background-color: red;
+    border-radius: 6px;
+}
+.form-lable{
+    font-size: small;
+}
+.fixed-float{
+    display: flex;
+    border: 5px solid red;
+    background-color: green;
+    width: 400px;
+    height: 68px;
+    border-radius: 20px;
+    position: fixed;
+    left: 35vw;
+    bottom: 20px;
+}
+.float-big{
+    padding: 0px 30px;
+    color: rgb(165, 16, 16);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+.float-small{
+    color: rgb(165, 16, 16);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.bottom-flex{
+    border: 5px solid purple;
+    text-align: center;
+    width: 1010px;
+    background-color: green;
+    margin-left: 214px;
+    margin-top: 10px;
+}
+.ltop{
+    width: 500px;
+    height: 300px;
+    float: left;
+    background-color:yellow;
+
+}
+.rtop{
+    width: 500px;
+    height: 300px;
+    float: right;
+    background-color: yellow;
+}
+.bottom-box{
+    background-color: yellow;
+    margin-top: 330px;
+    padding-bottom: 10px;
+
+}
+
+
